@@ -1,8 +1,7 @@
 ---
 tags:
-
-date:
-title: "Welcome to the Gibbiverse"
+date: 2025-10-07
+title: Welcome to the Gibbiverse
 draft: false
 ---
 
