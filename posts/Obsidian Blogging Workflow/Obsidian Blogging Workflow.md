@@ -4,10 +4,8 @@ tags:
   - draft
 date:
 title: "Blogging: Obsidian to Hugo Workflow"
-draft:
+draft: false
 ---
-
-# Obsidian Blogging Workflow
 
 ## Summary
 
