@@ -2,7 +2,7 @@
 tags:
   - blog-post
   - draft
-date:
+date: 
 title: "Blogging: Obsidian to Hugo Workflow"
 draft: false
 ---
