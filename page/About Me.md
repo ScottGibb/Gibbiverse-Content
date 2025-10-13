@@ -1,7 +1,8 @@
 ---
-tags: []
+tags:
+- C
 date: 2025-10-07
-title: "About Me"
+title: About Me
 draft: false
 ---
 

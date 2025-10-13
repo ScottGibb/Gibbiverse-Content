@@ -1,8 +1,9 @@
 ---
 tags:
-
-date:
-title: "Posts"
+- GitHub
+- Git
+date: null
+title: Posts
 draft: false
 ---
 

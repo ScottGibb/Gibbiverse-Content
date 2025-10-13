@@ -1,8 +1,8 @@
 ---
 tags:
-
-date:
-title: "Pages"
+- GitHub
+date: null
+title: Pages
 draft: false
 ---
 
