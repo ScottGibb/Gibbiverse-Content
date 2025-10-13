@@ -5,4 +5,4 @@ title: Welcome to the Gibbiverse
 draft: false
 ---
 
-This section is the top level _index.md
+This is the blog for the Gibbiverse. Here you will find posts about my projects, tutorials, and other tech-related topics. Feel free to explore and read through the various articles.

@@ -1,7 +1,6 @@
 ---
 tags:
   - blog-post
-  - draft
 date: 2025-10-07
 title: "Blogging: Obsidian to Hugo Workflow"
 draft: false
