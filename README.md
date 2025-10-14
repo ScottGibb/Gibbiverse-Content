@@ -1,7 +1,7 @@
-# Blog Posts
+# Gibbiverse Content
 
-This repository contains all the Markdown files associated with the blog posts for the Gibbiverse website. These files are managed using the Hugo static site generator, in the [Website Repository](https://github.com/ScottGibb/Gibbiverse).
+This repository contains all the Markdown files associated with the blog posts for the Gibbiverse website. Here you will find purely Markdown with some GitHub Actions added for linting. The Static Site Generator responsible for creating the [Gibbiverse](https://scottgibb.github.io/Gibbiverse/) can be found in this [repository](https://github.com/ScottGibb/Gibbiverse).
 
 ## Pull Requests
 
-Pull Requests for the blogs are very welcome here. Once made I will merge them in and manually update the submodule for the Gibbiverse site.
+Pull Requests for the blogs are very welcome here. Always looking to improved and add content here. So please create a PR and I will review it as soon as possible.
