@@ -12,8 +12,7 @@ draft: true
 This is my first blogpost and im going to talk about how to make an easy workflow between Obsidian and [[Hugo]]. I love using [[Obsidian]] and I love taking Notes, now its time to share them with the rest of the Internet. The approach I take is a three stage approach, which is outlined in the diagram below. We will walk our way through this workflow in this blog and outline the tools and the stages as we go through.
 
 
-
-## What tools you need
+## What tools will you need?
 
 The tools and languages you will need during this blog are shown below:
 
@@ -27,20 +26,29 @@ The tools and languages you will need during this blog are shown below:
 
 Before we go into the different stages of the workflow. Its best to first discuss the repository structure we are using. I have the following repositories
 
-- Gibb Knowledge Base - A private repository that contains my personal notes and is self hosted.
-- [Blog Posts](https://github.com/ScottGibb/blog-posts)- A public repository that contains my blog posts in markdown format. This doesn't contain any specific Hugo files, it will primarily consist of Markdown and images.
-- [Gibbiverse](https://github.com/ScottGibb/Gibbiverse) - A public repository that contains my Hugo site. This is where the configuration of the site and theme settings are stored.
-- [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse) - A public repository that contains a [[../../../Resources/Languages/Python|Python]] application which is designed to replace the links inside the content so that the obsidian links are removed.
+- Gibb Knowledge Base - A private repository that contains my personal notes and is self hosted. This is where all my notes are stored and managed using Obsidian. I often link my posts to notes in here. However these links will not work on the published site.
+- [Gibbiverse Content](https://github.com/ScottGibb/blog-posts)- A public repository that contains my blog posts in markdown format. This doesn't contain any specific Hugo files, it primarily consists of Markdown and images. No code is added here or project configuration. There is some [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] added to allow [[MegaLinter]] to run and check the formatting.
+- [Gibbiverse](https://github.com/ScottGibb/Gibbiverse) - A public repository that contains the Hugo site. This is where the configuration of the site and theme settings are stored. There are also another set of [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] this time targeting the build and deploy process with [[GitHub Pages]].
+- [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse) - A public repository that contains a [[../../../Resources/Languages/Python|Python]] application which is designed to replace the links inside the content so that the content renders correctly in [[Hugo]].
 
-The Content repository is cross linked between the two repositories. Allowing it to be used in both places. The idea is to write your blogs in Obsidian and then have them referenced in the Hugo Site Repository
-
+This whole structure allows me to continue using [[Obsidian]] to write content and link to my personal notes and vice versa, enhancing the Second Brain nature that [[Obsidian]] provides.
 # The Stages
 
-## [[Obsidian]]
+Before we dive deep into the technicalities of the process. Its best to first give an overview of the different stages and then we can highlight what the issues were and how they were overcome.
+
+
+The workflow can be seen below in the following #excalidraw diagram:
+
+![[../../../Excalidraw/Obsidian Blog Workflow.excalidraw|Obsidian Blog Workflow.excalidraw]]
+
+## Stage 1: [[Obsidian]]
 
 In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog Posts`. This is where all my blog posts are written. I regularly push these notes to the `Blog Posts` repository. I also have a folder called `drafts` where I write my drafts before they are ready to be moved to the `Blog Posts` folder.
 
-## [[Hugo]]
+# Stage 2: [[../../../Resources/Version Control/GitHub/GitHub|GitHub]] [[Pull Request]]
+
+## Stage 3: [[Hugo]] [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]]
+
 
 ## Updating Submodules
 
