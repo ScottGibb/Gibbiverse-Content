@@ -55,7 +55,7 @@ In Stage 2 we create a new branch in the [Gibbiverse](https://github.com/ScottGi
 
 When we are in this branch we can then work on the [[Hugo]] side of things. We can see what the website looks like locally, by running the [[../../../Resources/Languages/Python|Python]] script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer). This will at present (15-10-2025) replace all the links in the active file location with the correct links for the website. This is important as [[Hugo]] will not be able to render the links correctly if they are pointing to my private knowledge base. However this same script is called in the [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] workflow when the site is built and deployed.
 
-Once the verification of the website is done and we have made all the tweaks to the [[Hugo]] portion off things we then move on Stage 3.
+Once the verification of the website is done and we have made all the tweaks to the [[Hugo]] portion of things we then move on Stage 3.
 
 ## Stage 3: Releasing your Blog
 
