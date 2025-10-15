@@ -67,7 +67,7 @@ When we are ready to run the release we then simply tag the commit we want to re
 
 There are a few quirks and issues that I have found along the way. These are outlined below:
 
-- [[Obsidian]] uses Wikilinks primarily and these arent supported by [[Hugo]]. This was a relatively easy fix as [[Obsidian]] now supports normal Markdown links. So I just need to ensure that I use these in my blog posts.
+- [[Obsidian]] uses Wikilinks primarily and these aren't supported by [[Hugo]]. This was a relatively easy fix as [[Obsidian]] now supports normal Markdown links. So I just need to ensure that I use these in my blog posts.
 
 - Some of my links get replaced with external links. These links are held as key value pairs inside a [[yaml]] file. Within the `Gibbiverse Content` repo.
 
