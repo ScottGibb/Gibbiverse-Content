@@ -61,7 +61,7 @@ Once the verification of the website is done and we have made all the tweaks to 
 
 In Stage 3 we are ready to post our blog to the wider world through [[GitHub Pages]].  We submit a pull request to merge our changes into main. This ensures that our changes are correctly linted through [[MegaLinter]] and the code is up to date via [[Dependabot]].
 
-When we are ready to run the release we then simple tag the commit we want to release and send it to [[../../../Resources/Version Control/GitHub/GitHub|GitHub]]. [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] handles the rest and creates a Release on GitHub and then updates the web site accordingly.
+When we are ready to run the release we then simply tag the commit we want to release and send it to [[../../../Resources/Version Control/GitHub/GitHub|GitHub]]. [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] handles the rest and creates a Release on GitHub and then updates the web site accordingly.
 
 # The Quirks and Issues
 
