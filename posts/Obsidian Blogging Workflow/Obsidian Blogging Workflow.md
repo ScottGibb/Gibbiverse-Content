@@ -45,7 +45,7 @@ In this stage you make notes as usual and write your blog posts. The way in whic
 
 Typically I work out of a branch per blog as this allows me to run [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style.
 
-At this stage, the most of the work is being done as its focused on creating the blog itself and the content alongside some of the formatting.
+At this stage, most of the work is being done as it's focused on creating the blog itself and the content alongside some of the formatting.
 
 Once i'm happy with the content and [[MegaLinter]] has performed its fixes. I merge the pull request into main and head on to Stage 2, where I work on the [[Hugo]] side in the [Gibbiverse](https://github.com/ScottGibb/Gibbiverse).
 
