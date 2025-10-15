@@ -4,7 +4,7 @@ This repository contains all the Markdown files associated with the blog posts f
 
 ## Pull Requests
 
-Pull Requests for the blogs are very welcome here. Always looking to improved and add content here. So please create a PR and I will review it as soon as possible.
+Pull Requests for the blogs are very welcome here. Always looking to improve and add content here. So please create a PR and I will review it as soon as possible.
 
 ### AI-Assisted Reviews
 
