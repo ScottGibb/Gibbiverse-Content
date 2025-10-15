@@ -50,24 +50,24 @@ Typically I work out of a branch per blog as this allows me to run [[../../../Re
 At this stage, the most of the work is being done as its focused on creating the blog itself and the content alongside some of the formatting. 
 
 Once i'm happy with the content and [[MegaLinter]] has performed its fixes. I merge the pull request into main and head on to Stage 2, where I work on the [[Hugo]] side in the [Gibbiverse](https://github.com/ScottGibb/Gibbiverse).
-# Stage 2: [[../../../Resources/Version Control/GitHub/GitHub|GitHub]] [[Pull Request]]
+## Stage 2: [[../../../Resources/Version Control/GitHub/GitHub|GitHub]] [[Pull Request]]
 
 In Stage 2 we create a new branch in the [Gibbiverse](https://github.com/ScottGibb/Gibbiverse) repository, where we can update the content submodule to point to the latest commit in the `Gibbiverse Content` repository. 
 
-When we are in this branch we can then work on the [[Hugo]] side of things. We can see what the website looks like locally, by running the [[../../../Resources/Languages/Python|Python]] script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer). This will at present (15-10-2025) replace all the links in the active file location with the correct links for the website. This is important as [[Hugo]] will not be able to render the links correctly if they are pointing to my private knowledge base. However this same script is called in 
+When we are in this branch we can then work on the [[Hugo]] side of things. We can see what the website looks like locally, by running the [[../../../Resources/Languages/Python|Python]] script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer). This will at present (15-10-2025) replace all the links in the active file location with the correct links for the website. This is important as [[Hugo]] will not be able to render the links correctly if they are pointing to my private knowledge base. However this same script is called in the [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] workflow when the site is built and deployed.
+
+Once the verification of the website is done and we have made all the tweaks to the [[Hugo]] portion off things we then move on Stage 3.
 ## Stage 3: [[Hugo]] [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]]
 
+In Stage 3 we are ready to post our blog to the wider world through [[GitHub Pages]].  We submit a pull request to merge our changes into main. This ensures that our changes are correctly linted through [[MegaLinter]] and the code is up to date via [[Dependabot]].
 
-## Updating Submodules
+When we are ready to run the release we then simple tag the commit we want to release and send it to [[../../../Resources/Version Control/GitHub/GitHub|GitHub]]. [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] handles the rest and creates a Release on GitHub and then updates the web site accordingly.
 
-Once im comfortable with the blog post, I then move to the [[Hugo]] repository. In this repository I update the `Blog Posts` submodule by first creating a new branch and then pulling in the latest changes from the `Blog Posts` repository.  During this time I can see what the Blog would like by running the following command in the root of the repository
 
-```bash
-hugo server -D
-```
+# The Quirks and Issues
 
-Once me and the [[CICD]]  system ([[MegaLinter]] is used to check for linting across the project space) are happy with the results, I go on to merge this back into main.
+There are a few quirks and issues that I have found along the way. These are outlined below:
 
-## Committing to a Release
+- [[Obsidian]] uses Wikilinks primarily and these arent supported by [[Hugo]]. This was a relatively easy fix as [[Obsidian]] now supports normal Markdown links. So I just need to ensure that I use these in my blog posts.
 
-The workflow Im using for releasing the blog is the one provided by Hugo and uses GitHub Actions alongside GitHub Pages to create both a [[../../../Resources/Version Control/GitHub/GitHub|GitHub]] release alongside a published website. This workflow only runs on a tagged commit. As such I am in full control of when the next Blog post is published.
+- Having the blogs reside inside my Vault often means I have a lot of internal links in my posts and these need to be removed before publishing. This is done using the [[../../../Resources/Languages/Python|Python]] script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer) a small [[../../../Resources/Languages/Python|Python]] project that can be used to counteract it. It also goes through the code and adds frontmatter tags.
