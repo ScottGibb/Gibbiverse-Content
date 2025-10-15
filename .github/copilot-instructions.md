@@ -57,6 +57,7 @@ Avoid: "This joke doesn't fit the technical nature of the blog." (The blog IS me
 ## Focus Areas
 
 Priority areas for review:
+
 1. Technical correctness (highest priority)
 2. Clarity and understandability
 3. Proper Hugo formatting
