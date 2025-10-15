@@ -45,9 +45,16 @@ The workflow can be seen below in the following #excalidraw diagram:
 
 In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog`. This is where all my blog posts are written. I regularly push these notes to the `Gibbiverse Content` repository. I can write offline on my travels and grab inspiration from the Obsidian Vault in a quick glance. 
 
-Typically I work out of a branch per blog as this allows me to run [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run a [[GitHub Agents]]
+Typically I work out of a branch per blog as this allows me to run [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style.
+
+At this stage, the most of the work is being done as its focused on creating the blog itself and the content alongside some of the formatting. 
+
+Once i'm happy with the content and [[MegaLinter]] has performed its fixes. I merge the pull request into main and head on to Stage 2, where I work on the [[Hugo]] side in the [Gibbiverse](https://github.com/ScottGibb/Gibbiverse).
 # Stage 2: [[../../../Resources/Version Control/GitHub/GitHub|GitHub]] [[Pull Request]]
 
+In Stage 2 we create a new branch in the [Gibbiverse](https://github.com/ScottGibb/Gibbiverse) repository, where we can update the content submodule to point to the latest commit in the `Gibbiverse Content` repository. 
+
+When we are in this branch we can then work on the [[Hugo]] side of things. We can see what the website looks like locally, by running the [[../../../Resources/Languages/Python|Python]] script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer). This will at present (15-10-2025) replace all the links in the active file location with the correct links for the website. This is important as [[Hugo]] will not be able to render the links correctly if they are pointing to my private knowledge base. However this same script is called in 
 ## Stage 3: [[Hugo]] [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]]
 
 
