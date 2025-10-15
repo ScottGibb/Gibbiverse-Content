@@ -33,7 +33,7 @@ This whole structure allows me to continue using [[Obsidian]] to write content a
 
 # The Stages
 
-Before we dive deep into the technicalities of the process. Its best to first give an overview of the different stages and then we can highlight what the issues were and how they were overcome.
+Before we dive deep into the technicalities of the process. It's best to first give an overview of the different stages and then we can highlight what the issues were and how they were overcome.
 
 The workflow can be seen below in the following #excalidraw diagram:
 
