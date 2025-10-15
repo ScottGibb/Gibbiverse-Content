@@ -43,8 +43,7 @@ The workflow can be seen below in the following #excalidraw diagram:
 
 ## Stage 1: [[Obsidian]]
 
-In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog Posts`. This is where all my blog posts are written. I regularly push these notes to the `Blog Posts` repository. I also have a folder called `drafts` where I write my drafts before they are ready to be moved to the `Blog Posts` folder.
-
+In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog`. This is where all my blog posts are written. I regularly push these notes to the `Gibbiverse Content` repository. I can write offline on my travels and grab inspiration from the Obsidian Vault in a quick glance. 
 # Stage 2: [[../../../Resources/Version Control/GitHub/GitHub|GitHub]] [[Pull Request]]
 
 ## Stage 3: [[Hugo]] [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]]
