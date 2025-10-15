@@ -71,7 +71,7 @@ There are a few quirks and issues that I have found along the way. These are out
 
 - Some of my links get replaced with external links. These links are held as key value pairs inside a [[yaml]] file. Within the `Gibbiverse Content` repo.
 
-- Having the blogs reside inside my Vault often means I have a lot of internal links in my posts and these need to be removed before publishing. This is done using the [[../../../Resources/Languages/Python|Python]] script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer) a small [[../../../Resources/Languages/Python|Python]] project that can be used to counteract it. It also goes through the code and adds frontmatter tags. These are also held within the `Gibbiverse Content` repo.
+- Having the blogs reside inside my Vault often means I have a lot of internal links in my posts and these need to be removed before publishing. This is done using the [[../../../Resources/Languages/Python|Python]] script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer) a small [[../../../Resources/Languages/Python|Python]] project that can be used to counteract it. It also goes through the code and adds front matter tags. These are also held within the `Gibbiverse Content` repo.
 
 # Closing Remarks
 
