@@ -47,7 +47,7 @@ Typically I work out of a branch per blog as this allows me to run [[../../../Re
 
 At this stage, most of the work is being done as it's focused on creating the blog itself and the content alongside some of the formatting.
 
-Once i'm happy with the content and [[MegaLinter]] has performed its fixes. I merge the pull request into main and head on to Stage 2, where I work on the [[Hugo]] side in the [Gibbiverse](https://github.com/ScottGibb/Gibbiverse).
+Once I'm happy with the content and [[MegaLinter]] has performed its fixes. I merge the pull request into main and head on to Stage 2, where I work on the [[Hugo]] side in the [Gibbiverse](https://github.com/ScottGibb/Gibbiverse).
 
 ## Stage 2: Seeing the Final Content
 
