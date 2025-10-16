@@ -43,7 +43,7 @@ The workflow can be seen below in the following #excalidraw diagram:
 
 In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog`. This is where all my blog posts are written. I regularly push these notes to the `Gibbiverse Content` repository. I can write offline on my travels and grab inspiration from the Obsidian Vault in a quick glance.
 
-Typically I work out of a branch per blog as this allows me to run [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]] specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style.
+Typically I work out of a branch per blog as this allows me to run [GitHub Actions](../../../Resources/Version Control/GitHub/GitHub Actions) specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style.
 
 At this stage, most of the work is being done as it's focused on creating the blog itself and the content alongside some of the formatting.
 
