@@ -37,7 +37,7 @@ Before we dive deep into the technicalities of the process. It's best to first g
 
 The workflow can be seen below in the following #excalidraw diagram:
 
-![[Obsidian Blog Workflow.excalidraw.svg]]
+![Obsidian Blog Workflow diagram](Obsidian Blog Workflow.excalidraw.svg)
 
 ## Stage 1: Writing your Blog
 
