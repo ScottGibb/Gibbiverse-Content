@@ -12,6 +12,10 @@ This is my first blog post and im going to talk about how to make an easy workfl
 
 # What tools will you need?
 
+This is my first blogpost and im going to talk about how to make an easy workflow between Obsidian and [[Hugo]]. I love using [[Obsidian]] and I love taking Notes, now its time to share them with the rest of the Internet. The approach I take is a three stage approach, which is outlined in the diagram below. We will walk our way through this workflow in this blog and outline the tools and the stages as we go through.
+
+## What tools will you need?
+
 The tools and languages you will need during this blog are shown below:
 
 - [[git]] - versioning your blogs and Obsidian Notes
@@ -20,7 +24,7 @@ The tools and languages you will need during this blog are shown below:
 - [[Hugo]] - Turning your Markdown files into beautiful Web code (JavaScript, css, html)
   - [GoLang](../../../Resources/Languages/GoLang.md) - The language used to create the Static Site Generator
 
-# The Project Structure
+## The Project Structure
 
 Before we go into the different stages of the workflow. Its best to first discuss the repository structure we are using. I have the following repositories
 
@@ -31,21 +35,46 @@ Before we go into the different stages of the workflow. Its best to first discus
 
 This whole structure allows me to continue using [[Obsidian]] to write content and link to my personal notes and vice versa, enhancing the Second Brain nature that [[Obsidian]] provides.
 
+<<<<<<< HEAD
+
 # The Stages
 
-Before we dive deep into the technicalities of the process. It's best to first give an overview of the different stages and then we can highlight what the issues were and how they were overcome.
+Before we dive deep into the technicalities of the process. It's best to first give an overview of the different stages and then we can highlight what the issues were and how they were overcome
+=======
+
+## The Stages
+
+Before we dive deep into the technicalities of the process. Its best to first give an overview of the different stages and then we can highlight what the issues were and how they were overcome.
+>>>>>>> main
 
 The workflow can be seen below in the following #excalidraw diagram:
 
 ![Obsidian Blog Workflow.excalidraw](Obsidian%20Blog%20Workflow.excalidraw.svg)
 
+<<<<<<< HEAD
+
 ## Stage 1: Writing your Blog
 
 In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog`. This is where all my blog posts are written. I regularly push these notes to the `Gibbiverse Content` repository. I can write offline on my travels and grab inspiration from the Obsidian Vault in a quick glance.
 
+<<<<<<< HEAD
 Typically I work out of a branch per blog as this allows me to run [GitHub Actions](../../../Resources/Version%20Control/GitHub/GitHub%20Actions.md) specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style.
+=======
+Typically I work out of a branch per blog as this allows me to run [GitHub Actions](../../../Resources/Version Control/GitHub/GitHub Actions) specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style.
+>>>>>>> 496b4f2e407eaaef5bb411b17c31e90475a4e577
 
-At this stage, most of the work is being done as it's focused on creating the blog itself and the content alongside some of the formatting.
+At this stage, most of the work is being done as it's focused on creating the blog itself and the content alongside some of the formatting
+=======
+
+### Stage 1: [[Obsidian]]
+
+In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog`. This is where all my blog posts are written. I regularly push these notes to the `Gibbiverse Content` repository. I can write offline on my travels and grab inspiration from the Obsidian Vault in a quick glance.
+
+### Stage 2: [[../../../Resources/Version Control/GitHub/GitHub|GitHub]] [[Pull Request]]
+
+### Stage 3: [[Hugo]] [[../../../Resources/Version Control/GitHub/GitHub Actions|GitHub Actions]]
+>>>>>>>
+>>>>>>> main
 
 Once I'm happy with the content and [[MegaLinter]] has performed its fixes. I merge the pull request into main and head on to Stage 2, where I work on the [[Hugo]] side in the [Gibbiverse](https://github.com/ScottGibb/Gibbiverse).
 
