@@ -5,3 +5,8 @@ GoLang
 Python
 C++
 C
+Yocto
+CICD
+Shell
+Bash
+Hugo
