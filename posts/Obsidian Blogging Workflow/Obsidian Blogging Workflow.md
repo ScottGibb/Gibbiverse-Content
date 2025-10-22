@@ -27,6 +27,7 @@ The tools and languages you will need during this blog are shown below:
 =======
 - [[Hugo]] - Turning your Markdown files into beautiful Web code ([[JavaScript]], [[css]], [[html]]
 - [[GoLang]] - The language used to create the Static Site Generator
+
 >>>>>>> 73624a367937c35def5ab66a4eae3abb10aa392f
 
 ## The Project Structure
@@ -63,8 +64,9 @@ The workflow can be seen below in the following #excalidraw diagram:
 In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog`. This is where all my blog posts are written. I regularly push these notes to the `Gibbiverse Content` repository. I can write offline on my travels and grab inspiration from the Obsidian Vault in a quick glance.
 
 <<<<<<< HEAD
-Typically I work out of a branch per blog as this allows me to run [GitHub Actions](../../../Resources/Version%20Control/GitHub/GitHub%20Actions.md) specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style.
+Typically I work out of a branch per blog as this allows me to run [GitHub Actions](../../../Resources/Version%20Control/GitHub/GitHub%20Actions.md) specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style
 =======
+
 Typically I work out of a branch per blog as this allows me to run [GitHub Actions](../../../Resources/Version Control/GitHub/GitHub Actions) specifically [[MegaLinter]] which catches out formatting errors and spelling errors. I can also run  [[GitHub Agents]] to check over my work and improve my writing style.
 >>>>>>> 496b4f2e407eaaef5bb411b17c31e90475a4e577
 
