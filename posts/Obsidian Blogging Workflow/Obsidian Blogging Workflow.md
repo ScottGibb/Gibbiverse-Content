@@ -16,10 +16,10 @@ This is my first blogpost and im going to talk about how to make an easy workflo
 The tools and languages you will need during this blog are shown below:
 
 - [[git]] - versioning your blogs and Obsidian Notes
-- [GitHub](https://github.com/ScottGibb) - Hosting your Repositories and publishing your Hugo Blog
+- [GitHub](https://github.com/ScottGibb) - Hosting your Repositories and publishing your [[Hugo]] Blog
 - [[Markdown]] - The file format of your blogs
-- [[Hugo]] - Turning your Markdown files into beautiful Web code (JavaScript, css, html)
-  - [[GoLang]] - The language used to create the Static Site Generator
+- [[Hugo]] - Turning your Markdown files into beautiful Web code ([[JavaScript]], [[css]], [[html]]
+- [[GoLang]] - The language used to create the Static Site Generator
 
 ## The Project Structure
 
