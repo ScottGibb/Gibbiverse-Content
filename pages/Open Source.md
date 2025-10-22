@@ -1,6 +1,7 @@
 ---
 tags:
-- GitHub
+  - GitHub
+  - open-source
 title: Open Source
 draft: false
 ---
