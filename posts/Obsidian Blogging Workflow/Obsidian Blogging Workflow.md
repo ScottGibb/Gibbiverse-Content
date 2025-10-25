@@ -75,7 +75,7 @@ Once the verification of the website is done and we have made all the tweaks to 
 
 In Stage 3 we are ready to post our blog to the wider world through [[GitHub Pages]].  We submit a pull request to merge our changes into main. This ensures that our changes are correctly linted through [[MegaLinter]] and the code is up to date via [[Dependabot]].
 
-When we are ready to run the release we then simply tag the commit we want to release and send it to [[../../../Resources/Version Control/GitHub/GitHub|GitHub]]. [GitHub Actions](../../../Resources/Version%20Control/GitHub/GitHub%20Actions.md)handles the rest and creates a Release on GitHub and then updates the web site accordingly.
+When we are ready to run the release we then simply tag the commit we want to release and send it to [GitHub](../../../Resources/Version%20Control/GitHub/GitHub.md). [GitHub Actions](../../../Resources/Version%20Control/GitHub/GitHub%20Actions.md)handles the rest and creates a Release on GitHub and then updates the web site accordingly.
 
 # The Quirks and Issues
 
@@ -85,7 +85,7 @@ There are a few quirks and issues that I have found along the way. These are out
 
 - Some of my links get replaced with external links. These links are held as key value pairs inside a [[yaml]] file. Within the `Gibbiverse Content` repo.
 
-- Having the blogs reside inside my Vault often means I have a lot of internal links in my posts and these need to be removed before publishing. This is done using the [[../../../Resources/Languages/Python|Python]] script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer) a small [[../../../Resources/Languages/Python|Python]] project that can be used to counteract it. It also goes through the code and adds front matter tags. These are also held within the `Gibbiverse Content` repo.
+- Having the blogs reside inside my Vault often means I have a lot of internal links in my posts and these need to be removed before publishing. This is done using the [Python](../../../Resources/Languages/Python.md) script in the [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse-Link-Fixer) a small [Python](../../../Resources/Languages/Python.md) project that can be used to counteract it. It also goes through the code and adds front matter tags. These are also held within the `Gibbiverse Content` repo.
 
 # Closing Remarks
 
