@@ -58,7 +58,6 @@ Typically I work out of a branch per blog as this allows me to run [GitHub Actio
 
 At this stage, most of the work is being done as it's focused on creating the blog itself and the content alongside some of the formatting
 
-
 ### Stage 1: [[Obsidian]]
 
 In this stage you make notes as usual and write your blog posts. The way in which I do this is by having a dedicated folder in my Obsidian Vault called `Blog`. This is where all my blog posts are written. I regularly push these notes to the `Gibbiverse Content` repository. I can write offline on my travels and grab inspiration from the Obsidian Vault in a quick glance.
