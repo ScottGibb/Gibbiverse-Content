@@ -26,13 +26,11 @@ When reviewing pull requests to the main branch, you should:
 4. **Hugo Formatting**: Check proper Hugo/Markdown formatting
    - Verify front matter includes required fields (tags, date, title, draft status)
    - Check proper Markdown syntax
-   - Validate internal link formats
 
 ### What to Look For
 
 - **Grammar and spelling**: Flag obvious errors but don't be overly pedantic
 - **Code formatting**: Ensure code blocks use proper syntax highlighting
-- **Link validity**: Check that internal links follow Hugo conventions
 - **Image references**: Verify image paths are correct
 - **Consistency**: Check for consistent terminology and style throughout
 
