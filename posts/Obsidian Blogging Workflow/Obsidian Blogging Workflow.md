@@ -29,7 +29,7 @@ The tools and languages you will need during this blog are shown below:
 Before we go into the different stages of the workflow. Its best to first discuss the repository structure we are using. I have the following repositories
 
 - Gibb Knowledge Base - A private repository that contains my personal notes and is self hosted. This is where all my notes are stored and managed using Obsidian. I often link my posts to notes in here. However these links will not work on the published site.
-- [Gibbiverse Content](https://github.com/ScottGibb/blog-posts)- A public repository that contains my blog posts in markdown format. This doesn't contain any specific Hugo files, it primarily consists of Markdown and images. No code is added here or project configuration. There is some [GitHub Actions](../../../Resources/Version%20Control/GitHub/GitHub%20Actions.md)
+- [Gibbiverse Content](https://github.com/ScottGibb/blog-posts)- A public repository that contains my blog posts in markdown format. This doesn't contain any specific Hugo files, it primarily consists of Markdown and images. No code is added here or project configuration. There is some [[GitHub Actions]]
 - added to allow [[MegaLinter]] to run and check the formatting.
 - [Gibbiverse](https://github.com/ScottGibb/Gibbiverse) - A public repository that contains the Hugo site. This is where the configuration of the site and theme settings are stored. There are also another set of [[GitHub Actions]] this time targeting the build and deploy process with [[GitHub Pages]].
 - [Gibbiverse Link Fixer](https://github.com/ScottGibb/Gibbiverse) - A public repository that contains a [[Python]] application which is designed to replace the links inside the content so that the content renders correctly in [[Hugo]].
