@@ -11,6 +11,7 @@ draft: false
 This is my first blog post and im going to talk about how to make an easy workflow between Obsidian and [[Hugo]]. I love using [[Obsidian]] and I love taking Notes, now its time to share them with the rest of the Internet. The approach I take is a three stage approach, which is outlined in the diagram below. We will walk our way through this workflow in this blog and outline the tools and the stages as we go through.
 
 [[Fixing Obsidian Links for Hugo]]
+
 # What tools will you need?
 
 This is my first blogpost and im going to talk about how to make an easy workflow between Obsidian and [[Hugo]]. I love using [[Obsidian]] and I love taking Notes, now its time to share them with the rest of the Internet. The approach I take is a three stage approach, which is outlined in the diagram below. We will walk our way through this workflow in this blog and outline the tools and the stages as we go through.
