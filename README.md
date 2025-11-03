@@ -1,5 +1,9 @@
 # Gibbiverse Content
 
+# **Deprecated**
+Upon many attempts to make a workflow between Obsidian and Hugo, I eventually gave up due to the different linking issues. It didn't provide any benefit to the workflow and created more confusion in the whole process.
+
+## Summary
 This repository contains all the Markdown files associated with the blog posts for the Gibbiverse website. Here you will find purely Markdown with some GitHub Actions added for linting. The Static Site Generator responsible for creating the [Gibbiverse](https://scottgibb.github.io/Gibbiverse/) can be found in this [repository](https://github.com/ScottGibb/Gibbiverse).
 
 ## Pull Requests
